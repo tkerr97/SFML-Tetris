@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="SFML Libs">
+      <UniqueIdentifier>{9228946e-f3d3-4607-8936-1431720c94d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -43,5 +46,97 @@
     <ClInclude Include="Board.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\flac.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\freetype.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\jpeg.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\ogg.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-audio.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\openal32.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-audio-s.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-audio-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-audio-s-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-graphics.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-graphics-s.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-graphics-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-graphics-s-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-main.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-main-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-network.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-network-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-network-s.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-network-s-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-system.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-system-s.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-system-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-system-s-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-window.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-window-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-window-s.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\sfml-window-s-d.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\vorbis.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\vorbisenc.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
+    <Library Include="lib\vorbisfile.lib">
+      <Filter>SFML Libs</Filter>
+    </Library>
   </ItemGroup>
 </Project>

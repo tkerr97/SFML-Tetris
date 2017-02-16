@@ -95,6 +95,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>SFML_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -110,6 +111,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -126,6 +128,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +148,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -166,6 +170,38 @@
     <ClInclude Include="Control.h" />
     <ClInclude Include="Board.h" />
     <ClInclude Include="Piece.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\flac.lib" />
+    <Library Include="lib\freetype.lib" />
+    <Library Include="lib\jpeg.lib" />
+    <Library Include="lib\ogg.lib" />
+    <Library Include="lib\openal32.lib" />
+    <Library Include="lib\sfml-audio-d.lib" />
+    <Library Include="lib\sfml-audio-s-d.lib" />
+    <Library Include="lib\sfml-audio-s.lib" />
+    <Library Include="lib\sfml-audio.lib" />
+    <Library Include="lib\sfml-graphics-d.lib" />
+    <Library Include="lib\sfml-graphics-s-d.lib" />
+    <Library Include="lib\sfml-graphics-s.lib" />
+    <Library Include="lib\sfml-graphics.lib" />
+    <Library Include="lib\sfml-main-d.lib" />
+    <Library Include="lib\sfml-main.lib" />
+    <Library Include="lib\sfml-network-d.lib" />
+    <Library Include="lib\sfml-network-s-d.lib" />
+    <Library Include="lib\sfml-network-s.lib" />
+    <Library Include="lib\sfml-network.lib" />
+    <Library Include="lib\sfml-system-d.lib" />
+    <Library Include="lib\sfml-system-s-d.lib" />
+    <Library Include="lib\sfml-system-s.lib" />
+    <Library Include="lib\sfml-system.lib" />
+    <Library Include="lib\sfml-window-d.lib" />
+    <Library Include="lib\sfml-window-s-d.lib" />
+    <Library Include="lib\sfml-window-s.lib" />
+    <Library Include="lib\sfml-window.lib" />
+    <Library Include="lib\vorbis.lib" />
+    <Library Include="lib\vorbisenc.lib" />
+    <Library Include="lib\vorbisfile.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,0 +1,5 @@
+﻿  main.cpp
+d:\sfml-template - copy\sfml-template\sfml-template\main.cpp(15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\sfml-template - copy\sfml-template\sfml-template\main.cpp(31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  sfml-template.vcxproj -> D:\sfml-template - Copy\sfml-template\Debug\sfml-template.exe
+  sfml-template.vcxproj -> D:\sfml-template - Copy\sfml-template\Debug\sfml-template.pdb (Full PDB)
